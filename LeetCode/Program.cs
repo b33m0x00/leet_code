@@ -1,20 +1,6 @@
-﻿using MediumProblems.RotateArray;
+﻿using EasyProblems.BestTimeToBuyAndSellStock;
 
-var problem = new RotateArray();
+var problem = new BestTimeToBuyAndSellStock();
+var nums = new int[] { 7, 1, 5, 3, 6, 4 };
 
-var nums = new int[] { 1, 2, 3, 4, 5 };
-
-foreach (var num in nums)
-{
-    Console.Write($"{num} ");
-}
-Console.WriteLine();
-
-problem.Solution(nums, 8);
-
-Console.WriteLine();
-
-foreach (var num in nums)
-{
-    Console.Write($"{num} ");
-}
+Console.WriteLine(problem.Solution(nums));
